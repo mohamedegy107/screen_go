@@ -1,10 +1,9 @@
-
 import 'package:flutter/material.dart';
 import 'package:screen_go/screen_go.dart';
 import 'responsive_widgets.dart';
 
 void main() {
-  return runApp(MyApp());
+  return runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ScreenGo(
         materialApp: true,
         builder: (context, deviceInfo) {
-          return MaterialApp(
+          return const MaterialApp(
             title: 'Screen Go',
             home: HomeScreen(),
           );

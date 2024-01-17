@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:screen_go/extensions/responsive_nums.dart';
 import 'package:screen_go/responsive_screen.dart';
 
-class Responsive_Screens extends StatelessWidget {
-  const Responsive_Screens({super.key});
+class ExampleResponsiveScreens extends StatelessWidget {
+  const ExampleResponsiveScreens({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class Responsive_Screens extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ProCustomizeResponsive(),
+                      builder: (context) => const ProCustomizeResponsive(),
                     ),
                   );
                 },

@@ -2,7 +2,7 @@
 
 Screen Go helps implement a responsive layout by providing helper widgets and extensions.
 
-![Responsive Image](https://web-cart.com/wp-content/uploads/2019/02/responsive-design.jpg)
+![Responsive Image](https://github.com/mohamedegy107/screen_go/blob/main/example/images/responsive.jpg)
 
 # Content
 

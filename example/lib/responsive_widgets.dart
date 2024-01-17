@@ -1,4 +1,4 @@
-import 'package:example/responsive_screens.dart';
+import 'responsive_screens.dart';
 import 'package:flutter/material.dart';
 import 'package:screen_go/extensions/responsive_nums.dart';
 

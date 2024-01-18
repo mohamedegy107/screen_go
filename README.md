@@ -1,4 +1,5 @@
 # Screen Go
+[![pub package](https://img.shields.io/pub/v/screen_go.svg)](https://pub.dartlang.org/packages/screen_go)
 
 <p align="center" >
   <strong>Screen Go is helps you to create responsive UI easily.</strong>

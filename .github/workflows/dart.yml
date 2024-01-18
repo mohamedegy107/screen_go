@@ -42,8 +42,7 @@ jobs:
         run: dart test
         
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4.0.0-beta.3
-        #uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v3
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
           

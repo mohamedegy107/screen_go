@@ -50,7 +50,7 @@ ScreenGo(
 ## Widget Size 🕓
 ```dart
 Container(
-  width: Adaptive.w(20),    // This will take 20% of the screen's width
+  width: 20.w,    // This will take 20% of the screen's width
   height: 30.5.h     // This will take 30.5% of the screen's height
 )
 ```

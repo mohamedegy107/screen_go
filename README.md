@@ -213,7 +213,7 @@ Scaffold(
 
 * `DeviceData.boxConstraints` - BoxConstraints of the device
 * `DeviceData.orientation` - Screen Orientation of the device (portrait or landscape)
-* `DeviceData.screenType` - Screen type of the device (mobile or tablet)
+* `DeviceData.screenType` - Screen type of the device (mobile or tablet or desktop)
 * `DeviceData.aspectRatio` - Aspect ratio of the device
 * `DeviceData.pixelRatio` - Pixel density ratio of the device
 

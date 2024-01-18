@@ -46,4 +46,10 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       
+      # Run all unit-tests with code coverage
+      - name: Run unit tests
+        run: flutter test --coverage
+        working-directory: ${{env.source-directory}}
+
+      
               

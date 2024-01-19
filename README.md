@@ -1,4 +1,4 @@
-# Screen Go [![pub package](https://img.shields.io/pub/v/screen_go.svg)](https://pub.dartlang.org/packages/screen_go)
+# Screen Go [![pub package](https://img.shields.io/pub/v/screen_go.svg)](https://pub.dartlang.org/packages/screen_go) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mohamedegy107_screen_go&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mohamedegy107_screen_go)
 
 <p align="center" >
   <strong>Screen Go is helps you to create responsive UI easily.</strong>

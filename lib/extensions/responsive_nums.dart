@@ -43,6 +43,10 @@ extension ResponsiveNums on num {
   /// Eg: 20.h -> will take 20% of the screen's width
   double get w => this * DeviceData.width / 100;
 
+  ///TODO LATTER
+  // ///Adapt according to the smaller of width or height
+  // double get r => this * min(scaleWidth, scaleHeight);
+
   /// Calculates the sp (Scalable Pixel) depending on the device's pixel
   /// density and aspect ratio
   double get sp =>

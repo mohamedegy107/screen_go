@@ -1,3 +1,3 @@
-## 1.0.5
+## 1.0.6
 
-* fix a default issue in web example
+* code refactor

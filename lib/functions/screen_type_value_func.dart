@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
 import '../enums/screen_type_enums.dart';
 import '../models/device_data.dart';
 
 dynamic stv({
-  required BuildContext context,
   required dynamic mobile,
   required dynamic tablet,
   required dynamic desktop,

@@ -83,6 +83,7 @@ If you want to support both portrait and landscape orientations use otv method o
 
 ```dart
 otv(
+    context: context,
     portrait: Container(   // Widget for Portrait
       width: 100.w,
       height: 20.5.h,
@@ -94,11 +95,13 @@ otv(
 )
 Or Return any type of Data
 otv(
+    context: context,
     portrait: [Any Data Type], 
     landscape: [Any Data Type],
 )
 Or access this method as an extension
 child: Widget.otv(
+    context: context,
     portrait: Container(   // Widget for Portrait
       width: 100.w,
       height: 20.5.h,
@@ -116,6 +119,7 @@ If you want get screen type use the ``DeviceData.screenType`` method or use stv 
 
 ```dart
 stv(
+    context: context,
     mobile: Container(   // Widget for Mobile
       width: 100.w,
       height: 20.5.h,
@@ -131,12 +135,14 @@ stv(
 )
 Or Return any type of Data
 stv(
+    context: context,
     mobile: [Any Data Type], // Widget for Mobile
     tablet: [Any Data Type], // Widget for Tablet
     desktop: [Any Data Type], // Widget for Desktop
 )
 Or access this method as an extension
 child: Widget.stv(
+    context: context,
     mobile: Container(   // Widget for Mobile
       width: 100.w,
       height: 20.5.h,

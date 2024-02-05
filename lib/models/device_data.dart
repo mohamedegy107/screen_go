@@ -60,7 +60,7 @@ class DeviceData {
 
     if (width >= 1100) {
       return DeviceScreenType.desktop;
-    } else if (width >= 650) {
+    } else if (width >= 850) {
       return DeviceScreenType.tablet;
     } else {
       return DeviceScreenType.mobile;

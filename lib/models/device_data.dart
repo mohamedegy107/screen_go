@@ -54,7 +54,7 @@ class DeviceData {
     final Orientation orientation = mediaQuery.orientation;
     double width = mediaQuery.size.width;
 
-    if ((deviceType != DeviceType.mobile || deviceType != DeviceType.ios) &&
+    if ((deviceType == DeviceType.mobile || deviceType == DeviceType.ios) &&
         orientation == Orientation.landscape) {
       width = mediaQuery.size.height;
     }

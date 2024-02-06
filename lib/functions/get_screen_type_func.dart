@@ -9,8 +9,8 @@ DeviceScreenType getScreenType(MediaQueryData mediaQuery) {
   final Orientation orientation = mediaQuery.orientation;
   double width = mediaQuery.size.width;
 
-  if ((DeviceData.getDeviceType(defaultTargetPlatform) != DeviceType.mobile ||
-          DeviceData.getDeviceType(defaultTargetPlatform) != DeviceType.ios) &&
+  if ((DeviceData.getDeviceType(defaultTargetPlatform) == DeviceType.mobile ||
+          DeviceData.getDeviceType(defaultTargetPlatform) == DeviceType.ios) &&
       orientation == Orientation.landscape) {
     width = mediaQuery.size.height;
   }

@@ -1,6 +1,6 @@
 name: screen_go
 description: A flutter plugin for Easily make Flutter apps responsive. Automatically adapt UI to different screen sizes. Responsiveness made simple.
-version: 1.0.8
+version: 1.0.9
 homepage: https://github.com/mohamedegy107/screen_go.git
 
 environment:

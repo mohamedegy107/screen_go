@@ -42,8 +42,8 @@ class DeviceData {
     height = boxConstraints.maxHeight;
 
     // set screen type and device type
-    screenType = getScreenType(MediaQuery.of(context));
     deviceType = getDeviceType(defaultTargetPlatform);
+    screenType = getScreenType(MediaQuery.of(context));
 
     // Sets aspect and pixel ratio
     aspectRatio = constraints.constrainDimensions(width, height).aspectRatio;

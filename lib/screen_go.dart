@@ -1,5 +1,6 @@
 library screen_go;
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'models/device_data.dart';
 import 'models/screen_go_model.dart';
@@ -36,10 +37,8 @@ class ScreenGo extends StatelessWidget {
           orientation: mediaQueryData.orientation,
           parentHeight: constraints.maxHeight,
           parentWidth: constraints.maxWidth,
-          deviceType: DeviceData.deviceType,
-          screenType: materialApp
-              ? DeviceData.screenType
-              : DeviceData.getScreenType(mediaQueryData),
+          deviceType: DeviceData.getDeviceType(defaultTargetPlatform),
+          screenType: DeviceData.getScreenType(mediaQueryData),
         );
 
         return builder(

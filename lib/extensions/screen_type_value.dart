@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import '../functions/get_screen_type_func.dart';
 import '../enums/screen_type_enums.dart';
 
 extension ScreenTypeValue on dynamic {

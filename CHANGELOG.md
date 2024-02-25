@@ -1,3 +1,3 @@
-## 1.1.4
+## 1.1.5
 
-* fix getScreenType and getDeviceType method functions
+* Code Refactor

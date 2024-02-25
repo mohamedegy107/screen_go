@@ -43,7 +43,7 @@ extension ResponsiveNums on num {
   /// Eg: 20.h -> will take 20% of the screen's width
   double get w => this * DeviceData.width / 100;
 
-  ///TODO LATTER
+  // /TO DO LATTER
   // ///Adapt according to the smaller of width or height
   // double get r => this * min(scaleWidth, scaleHeight);
 

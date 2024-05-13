@@ -34,7 +34,7 @@ dependencies:
 import 'package:screen_go/screen_go.dart';
 ```
 
-## Wrap MaterialApp with ResponsiveSizer widget
+## Wrap MaterialApp with ScreenGo widget
 ```dart
 ScreenGo(
   materialApp: true,
